@@ -9,4 +9,8 @@ int main(){
 
     char c;
     c='d';
+
+    printf("the value of a is %d",a);
+    printf("the value of b is %f",b);
+    printf("the value of c is %c",c);
 }
