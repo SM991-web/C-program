@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/VS files/C program/Chapter 3",
-      "program": "c:/VS files/C program/Chapter 3/build/Debug/outDebug",
+      "cwd": "c:/VS files/C program/Chapter 4",
+      "program": "c:/VS files/C program/Chapter 4/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
