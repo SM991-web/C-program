@@ -2,14 +2,13 @@
 
 int main(){
     int n;
-    printf("Value for n:\n");
-    scanf("%d",&n);
-    for (int i = 0; i <= n ; i++)
+    printf("Enter value for reverse order natural number:");
+    scanf("%d",n);
+    for (int i=n; i ; i++)
     {
-        printf("Print natural numbers:%d\n",i);
+        printf("%d\n",i);
     }
-
+    
     return 0;
 
 }
-// 3:54:37
