@@ -7,7 +7,7 @@ int main(){
     for (; i<=n; i++)
     {
         a*=i;
-        printf("factorial  %d : %d",i,a);
+        // printf("factorial  %d : %d",i,a);
     }
     printf("factorial of %d : %d",n,a);
     
