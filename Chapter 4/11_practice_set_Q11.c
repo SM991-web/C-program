@@ -1,2 +1,27 @@
-//What can be done by using one loop can be also done using the other types of loop
-//True
+#include <stdio.h>
+
+int main(){
+    int n,p=0;
+    printf("Enter Number:");
+    scanf("%d",&n);
+    for (int i = 2; i < n; i++)
+    {
+        if (n%i==0)
+        {   
+            p=1;
+        }
+        
+    }
+    if (p)
+    {           
+        printf("%d is not  prime",n);
+    }
+    else
+    {
+        printf("%d is  prime",n);
+    }
+    
+    
+    return 0;
+
+}
