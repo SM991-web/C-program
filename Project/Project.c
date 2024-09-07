@@ -29,6 +29,6 @@ int main() {
         
     } while (guessed!=randomNumber);
     
-    printf("You guessed the number correctly in %d guesses ",no_of_guess);
+    printf("You guessed the number correctly in %d guesses  ",no_of_guess);
     return 0;
 }
