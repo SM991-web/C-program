@@ -13,6 +13,8 @@ int main(){
     //If 👆🏻👆🏻👆🏻👆🏻 does not work try this 👇🏻👇🏻👇🏻👇🏻
     // printf("Address  = %u",(unsigned int)j);
     printf("the value at address  j is %d\n",*(&i));
+    // printf("the value address  j is %p\n",(void*)&j);
+    // this is another snippet to get address of any pointer
     return 0;
 
 }
