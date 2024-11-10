@@ -8,6 +8,6 @@ int main(){
     int** k = &j;
 
     printf("The value of %d is : %d\n", x , *j);
-    printf("The value of %d is : %d\n", x , *(&i));
+    printf("The value of %d is : %d\n", x , **k);
     return 0;
 }
