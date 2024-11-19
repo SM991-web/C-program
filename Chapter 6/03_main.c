@@ -8,7 +8,7 @@ int main(){
     int** z=&y;
     printf("Enter: ");
     scanf("%d", &x);
-    printf("The value of i is %d\n",x);
+    printf("The value of i is %u\n",x);
     printf("The value of i is %d\n",*y);
     printf("The value of i is %d\n",*(&x));
     printf("The value of i is %d\n",**(&y));
